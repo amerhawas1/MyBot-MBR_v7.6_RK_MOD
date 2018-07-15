@@ -199,3 +199,9 @@ Global Const $g_sImgDonH = 			@ScriptDir & "\imgxml\Resources\Clan Games Images\
 
 
 #EndRegion
+
+#Region Boost
+Global Const $g_sImgBboost = @ScriptDir & "\imgxml\Boost\bboost"
+Global Const $g_sImgCboost = @ScriptDir & "\imgxml\Boost\cboost"
+Global Const $g_sImgLibr = @ScriptDir & "\imgxml\Boost\libro"
+#EndRegion

@@ -1188,7 +1188,7 @@ Func _RunFunction($action)
 		Case "BoostWarden"
 			BoostWarden()
 		Case "BoostAll"
-			BoostAllWithMagicSpell()
+			BoostAll()
 		Case "LabCheck"
 		    If $g_iChkLabCheck = 0 Then
 			LabGuiDisplay()

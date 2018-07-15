@@ -94,7 +94,8 @@ Func QuickMIS($ValueReturned, $directory, $Left = 0, $Top = 0, $Right = $g_iGAME
 					Local $MultiImageSearchResult = StringSplit($Res[0], "|")
 					Local $FilenameFound = StringSplit($MultiImageSearchResult[1], "_")
 					Return $FilenameFound[1]
-
+					If $g_bDebugSetlog Then SetDebugLog($MultiImageSearchResult & " " & $FilenameFound)
+					
 				Case "NX" ; names of all files found
 
 					Local $AllFilenamesFound = ""
